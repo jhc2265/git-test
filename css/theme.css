@@ -11,7 +11,7 @@ body {
 }
 
 .card {
-  max-width: 520px;
+  max-width: 560px;
   padding: 44px 48px;
   border: 1px solid #2a2d36;
   border-radius: 16px;
@@ -38,6 +38,29 @@ code {
   color: #7dd3a0;
   font-size: 14px;
 }
+
+/* 커밋 기록 표 - 4차 테스트에서 추가 */
+.log {
+  width: 100%;
+  margin-top: 8px;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.log th,
+.log td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #2a2d36;
+  text-align: left;
+  color: #9296a3;
+}
+
+.log th {
+  color: #7dd3a0;
+  font-weight: 600;
+}
+
+.log tr:last-child td { border-bottom: none; }
 
 .back { margin-top: 36px; }
 
